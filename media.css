@@ -1,0 +1,165 @@
+@media only screen and (max-width: 1200px) {
+  /*--------------------------------------------- header ---------------------------------------------*/
+  .header .nav .nList li {
+    margin-left: 10px;
+    padding-top: 5px;
+  }
+
+  /*--------------------------------------------- Hello ---------------------------------------------*/
+  .hello {
+    padding: 0 20px;
+    margin: 80px 0;
+  }
+
+  .hello .hImg {
+    width: 40%;
+    margin-bottom: 50px;
+  }
+
+  .hello .hDescription {
+    width: 45%;
+  }
+
+  .main-btn {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  /*--------------------------------------------- Our Services ---------------------------------------------*/
+  .ourServices .services .service {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  /*--------------------------------------------- Our Portfolio ---------------------------------------------*/
+  .ourPortfolio .imgs .divImg {
+    width: 45%;
+  }
+
+  /*--------------------------------------------- Counting ---------------------------------------------*/
+
+  /*--------------------------------------------- Our Blog ---------------------------------------------*/
+  .ourBlog .blogsCards .card {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+
+  /*--------------------------------------------- Contact Us ---------------------------------------------*/
+  .contactUs .cCenter {
+    width: 95%;
+  }
+
+  .contactUs form input:nth-of-type(3),
+  .contactUs form textarea,
+  .contactUs form input:nth-of-type(1),
+  .contactUs form input:nth-of-type(2) {
+    width: 100%;
+    float: none;
+  }
+
+  .contactUs .main-btn {
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  /*--------------------------------------------- header ---------------------------------------------*/
+  .header .layer {
+    padding: 0 30px;
+  }
+
+  .header .nav .menu {
+    display: inline-block;
+  }
+
+  .header .nav .menu ~ .nList:hover,
+  .header .nav .menu:hover ~ .nList {
+    height: 300px;
+    display: inline-block;
+  }
+
+  .header .nav .nList {
+    width: 100%;
+    height: 0px;
+  }
+
+  .header .nav .nList li {
+    background-color: #333333;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .header .hContent p {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .header .hContent h1 {
+    font-size: 40px;
+  }
+
+  .header .hContent p.pwd span.animation::after {
+    max-width: 85px;
+  }
+  /*--------------------------------------------- Hello ---------------------------------------------*/
+  .hello {
+    padding: 0 20px;
+    margin: 80px 0;
+  }
+
+  .hello .hImg {
+    width: 100%;
+    margin-bottom: 50px;
+    border: none;
+  }
+
+  .hello .hImg .hLayer1,
+  .hello .hImg img {
+    transform: translate(0, 0);
+  }
+
+  .hello .hDescription {
+    width: 100%;
+  }
+
+  /*--------------------------------------------- Our Services ---------------------------------------------*/
+  .ourServices .services .service {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /*--------------------------------------------- Our Portfolio ---------------------------------------------*/
+  .ourPortfolio .imgs .divImg {
+    width: 100%;
+  }
+
+  /*--------------------------------------------- Counting ---------------------------------------------*/
+  .counting .conter {
+    width: 50%;
+    margin-top: 50px;
+  }
+
+  /*--------------------------------------------- Our Blog ---------------------------------------------*/
+  .ourBlog .blogsCards .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /*--------------------------------------------- Contact Us ---------------------------------------------*/
+  .contactUs .cCenter {
+    width: 95%;
+  }
+
+  .contactUs form input:nth-of-type(3),
+  .contactUs form textarea,
+  .contactUs form input:nth-of-type(1),
+  .contactUs form input:nth-of-type(2) {
+    width: 100%;
+    float: none;
+  }
+
+  .contactUs .main-btn {
+    float: none;
+  }
+}
